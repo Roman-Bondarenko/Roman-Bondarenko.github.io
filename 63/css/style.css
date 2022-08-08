@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.promo{
+    min-height: 650px;
+    background: url(/img/Group36.png) center center/cover no-repeat;
+    padding: 40px 165px 81px 165px;
+}
+
+.promo_nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+margin-top: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    width: 600px;
+    height: 40px;
+    
+    
+}
+.promo .tel{
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.promo .tel .tell{
+    margin-top: 22px;
+    margin-left: 40px;
+    font-family: 'Capture it';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0922E;
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    margin-top: 116px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo .text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.promo .products {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #E0922E;
+}
+.promo .arrowb{
+display: flex;
+justify-content: space-between;
+}
+.promo .arrow1{
+    
+    width: 72px;
+    height: 42px;
+    left: 165px;
+    margin-top: 116px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.promo .arrow2{
+   
+    width: 72px;
+    height: 42px;
+    left: 165px;
+    margin-top: 116px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.pi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 80px;
+}
+.pii{
+    
+    
+    width: 24px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+   
+}
+.imgrow{
+    margin: 13px 30px ;
+}
+.about_us{
+    display: flex;
+    min-height: 673px;
+    padding: 105px 168px 136px 165px;
+}
+.beer{
+width: 569px;
+height: 432px;
+margin-right: 65px;
+}
+
+.beer_text span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #E0922E;
+}
+.text_h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #393939;
+}
+
+.beer_text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #5A5A5A;
+}
+
